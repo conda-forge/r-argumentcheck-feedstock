@@ -14,9 +14,8 @@ Summary: The typical process of checking arguments in functions is iterative.  I
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-argumentcheck-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-argumentcheck-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-argumentcheck-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-argumentcheck-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-argumentcheck-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-argumentcheck-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-argumentcheck-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-argumentcheck-feedstock)
 
 Current release info
 ====================
