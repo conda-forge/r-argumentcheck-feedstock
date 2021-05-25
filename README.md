@@ -5,11 +5,9 @@ Home: https://github.com/nutterb/ArgumentCheck
 
 Package license: GPL-3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-argumentcheck-feedstock/blob/master/LICENSE.txt)
 
 Summary: The typical process of checking arguments in functions is iterative.  In this process, an error may be returned and the user may fix it only to receive another error on a different argument.  'ArgumentCheck' facilitates a more helpful way to perform argument checks allowing the programmer to run all of the checks and then return all of the errors and warnings in a single message.
-
-
 
 Current build status
 ====================
@@ -38,6 +36,7 @@ Installing `r-argumentcheck` from the `conda-forge` channel can be achieved by a
 
 ```
 conda config --add channels conda-forge
+conda config --set channel_priority strict
 ```
 
 Once the `conda-forge` channel has been enabled, `r-argumentcheck` can be installed with:
@@ -108,9 +107,9 @@ build distinct package versions.
 
 In order to produce a uniquely identifiable distribution:
  * If the version of a package **is not** being increased, please add or increase
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string).
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string).
  * If the version of a package **is** being increased, please remember to return
-   the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
+   the [``build/number``](https://docs.conda.io/projects/conda-build/en/latest/resources/define-metadata.html#build-number-and-string)
    back to 0.
 
 Feedstock Maintainers
